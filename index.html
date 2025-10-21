@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AKASH TRIVEDI — Portfolio</title>
+  <link
+      rel="icon"
+      href="img/title.png"
+    />
+  <meta name="description"
+    content="Portfolio of AKASH TRIVEDI, 3rd year B.Tech CSE @ SRMU. Projects, skills, and ways to connect." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- Glass Nav -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="brand" aria-label="Home">
+        <span class="brand__logo">◎</span>
+        <span class="brand__text">AKASH TRIVEDI</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#achievements" class="nav__link">Achievements</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="btn btn--icon" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="btn btn--icon nav__toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="eyebrow">3rd Year B.Tech CSE @ SRMU</p>
+        <h1 class="hero__title">
+          Hey, I’m <span class="grad-text">AKASH TRIVEDI</span>
+        </h1>
+        <p class="hero__subtitle">
+          I build clean, fast, and accessible projects with code. Open to internships, part‑time, and freelance.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="social">
+          <!-- Replace # with your links -->
+          <a href="https://github.com/Unfazed-Akash" target="_blank" rel="noopener" aria-label="GitHub"
+            class="social__btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.57v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.76.08-.75.08-.75 1.22.09 1.86 1.26 1.86 1.26 1.08 1.86 2.82 1.32 3.5 1.01.11-.78.42-1.32.76-1.62-2.67-.31-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.56.12-3.25 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.67 1.69.25 2.94.13 3.25.78.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.61-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .31.21.69.82.57A12 12 0 0 0 12 .5z" />
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/unfazed-akash" target="_blank" rel="noopener" aria-label="LinkedIn"
+            class="social__btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.65h.05c.53-1 1.83-2.05 3.77-2.05C20.37 8.6 21 11.08 21 14.44V21H17v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.45-2.16 2.96V21H9z" />
+            </svg>
+          </a>
+          <a href="https://x.com/unfazed_akash" target="_blank" rel="noopener" aria-label="X" class="social__btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M18.244 2H21l-6.49 7.41L22 22h-6.828l-5.34-6.998L3.8 22H1l6.98-7.977L2 2h6.828l4.84 6.454L18.244 2zM7.42 4h-1.8l10.96 14h1.8L7.42 4z" />
+            </svg>
+          </a>
+          <a href="https://www.reddit.com/user/unfazed-akash/" target="_blank" rel="noopener" aria-label="Reddit"
+            class="social__btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10c5.29 0 9.64-4.13 9.98-9.35.01-.09.02-.17.02-.26zm-6.17-1.53a1.37 1.37 0 0 1 1.35 1.37 1.4 1.4 0 0 1-2.79 0c0-.76.61-1.37 1.37-1.37h.07zM7.82 10.47c.75 0 1.37.61 1.37 1.36a1.37 1.37 0 0 1-2.73 0c0-.75.61-1.36 1.36-1.36zM12 18.22c-1.68 0-3.07-.61-3.82-1.47a.5.5 0 0 1 .74-.66c.57.64 1.73 1.07 3.08 1.07 1.36 0 2.52-.43 3.09-1.07a.5.5 0 1 1 .74.66c-.75.86-2.14 1.47-3.83 1.47z" />
+            </svg>
+          </a>
+          <a href="https://discord.com/channels/@1429119620563865632" target="_blank" rel="noopener"
+            aria-label="Discord" class="social__btn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.3 4.37A17.6 17.6 0 0 0 15.68 3c-.22.4-.47.95-.64 1.39a16.4 16.4 0 0 0-5.08 0c-.18-.44-.42-.98-.64-1.39A17.7 17.7 0 0 0 4.7 4.37C2.79 7.2 2.31 9.96 2.5 12.68c1.7 1.27 3.35 2.04 4.95 2.52.38-.52.72-1.08 1-1.67- .55-.21-1.07-.47-1.55-.77.13-.09.26-.19.38-.29 3.01 1.4 6.27 1.4 9.28 0 .13.1.25.2.38.29-.48.3-1 .56-1.55.77.28.59.62 1.15 1 1.67 1.6-.48 3.25-1.25 4.95-2.52.23-3.12-.52-5.84-2.64-8.31zM9.55 12.6c-.62 0-1.13-.57-1.13-1.27 0-.7.5-1.27 1.13-1.27.62 0 1.13.57 1.13 1.27 0 .7-.5 1.27-1.13 1.27zm4.9 0c-.62 0-1.13-.57-1.13-1.27 0-.7.5-1.27 1.13-1.27.62 0 1.13.57 1.13 1.27 0 .7-.51 1.27-1.13 1.27z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="orb orb--one"></div>
+        <div class="orb orb--two"></div>
+        <div class="profile">
+          <div class="profile__ring"></div>
+          <div class="profile__avatar">
+            <img src="profile.png" alt="AKASH TRIVEDI">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About">▿</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section diagonal">
+    <div class="container grid-2 reveal">
+      <div>
+        <h2>About</h2>
+        <p>
+          I’m a 3rd year B.Tech CSE student at SRMU who loves turning ideas into practical, well‑crafted products.
+          I focus on clean UI, performance, and real‑world problem solving. Currently exploring
+          web, AI/ML, and systems — open to internships and collabs.
+        </p>
+        <div class="facts">
+          <div class="fact"><span>📍</span> Lucknow, India</div>
+          <div class="fact"><span>🟢</span> Open to internship</div>
+        </div>
+        <div class="about__ctas">
+          <a class="btn btn--primary" href="https://drive.google.com/file/d/1v17woxNpAkO7hgUjCawQ-NPu-jkrpUjK/view"
+            target="_blank" rel="noopener">Download Resume</a>
+          <a class="btn btn--ghost" href="#contact">Say Hello</a>
+        </div>
+      </div>
+      <div>
+        <ul class="list-check">
+          <li>Modern, responsive frontends</li>
+          <li>Reusable component patterns</li>
+          <li>Accessible and tested</li>
+          <li>Dev tooling and clean Git</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Projects</h2>
+        <div id="projectFilters" class="chips">
+          <button class="chip chip--active" data-filter="all">All</button>
+          <button class="chip" data-filter="web">Web</button>
+          <button class="chip" data-filter="ml">ML</button>
+          <button class="chip" data-filter="cli">CLI</button>
+          <button class="chip" data-filter="android">Android</button>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <!-- Project Card -->
+        <article class="card project tilt reveal" data-tags="web">
+          <div class="card__media">
+            <img src="assets/project-a.png" alt="Aaharithm screenshot">
+          </div>
+          <div class="card__body">
+            <h3>Aaharithm</h3>
+            <p>Architected a Python/Flask backend and a rule-based AI engine that processes user health data to
+              create personalized wellness plans with 95% recommendation accuracy using Ayurvedic principles.</p>
+            <div class="tags"><span>Vanilla JS</span><span>PWA</span><span>API</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="https://aaharithm.vercel.app/" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn--sm btn--ghost" href="https://github.com/Unfazed-Akash/Aaharithm-" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" data-tags="ml web">
+          <div class="card__media placeholder">
+            <img src="assets/project-b.png" alt="Dabris screenshot">
+          </div>
+          <div class="card__body">
+            <h3>Dabris</h3>
+            <p>Engineered a command-line chatbot using NLTK to parse plain-English queries, enabling non-technical
+              Personal Project users to perform data analysis on CSV files and receive automated statistical summaries.
+            </p>
+            <div class="tags"><span>Python</span><span>NLP</span><span>Flask</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="https://dabris.onrender.com/" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn--sm btn--ghost" href="https://github.com/Unfazed-Akash/DABRIS" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" data-tags="cli">
+          <div class="card__media placeholder">
+            <img src="assets/project-c.png" alt="Netflix Landing Page Clone screenshot">  
+          </div>
+          <div class="card__body">
+            <h3>Netflix Landing Page Clone</h3>
+            <p>Developed a pixel-perfect, fully responsive clone of the Netflix landing page using HTML, CSS, and
+              JavaScript, creating 10+ reusable components to reduce code redundancy by 30%.</p>
+              creating 10+ reusable components to reduce code redundancy by 30%.</p>
+            <div class="tags"><span>Node</span><span>CLI</span><span>Git</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="https://netflix-clone-by-akash.vercel.app/" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn--sm btn--ghost" href="https://github.com/Unfazed-Akash/Netflix-clone-" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article><br>
+        <h2>Upcoming Projects
+          <style>
+            .coming-soon {
+              font-size: 0.6em;
+              color: gray;
+              margin-left: 8px;
+              font-style: italic;
+            }
+            .coming-soon::before {
+              content: " (Coming Soon)";
+            }
+          </style>
+        </h2>
+        <br>
+        <article class="card project tilt reveal" data-tags="android">
+          <div class="card__media placeholder"></div>
+          <div class="card__body">
+            <h3>Campus Connect</h3>
+            <p>Student communities, events, and notes exchange with role‑based access.</p>
+            <div class="tags"><span>Kotlin</span><span>Room</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" data-tags="web">
+          <div class="card__media placeholder"></div>
+          <div class="card__body">
+            <h3>AlgoViz</h3>
+            <p>Interactive visualizer for classic algorithms with step‑through and time complexity.</p>
+            <div class="tags"><span>TypeScript</span><span>Canvas</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Live</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card project tilt reveal" data-tags="ml">
+          <div class="card__media placeholder"></div>
+          <div class="card__body">
+            <h3>VisionGuard</h3>
+            <p>Edge ML for detecting PPE compliance with privacy‑first design.</p>
+            <div class="tags"><span>OpenCV</span><span>TFLite</span></div>
+          </div>
+          <div class="card__actions">
+            <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn btn--sm btn--ghost" href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section diagonal">
+    <div class="container reveal">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h4>Languages</h4>
+          <div class="chips">
+            <span class="chip">C/C++</span><span class="chip">Python</span>
+            <span class="chip">JavaScript</span><span class="chip">TypeScript</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h4>Frameworks</h4>
+          <div class="chips">
+            <span class="chip">Node</span><span class="chip">Express</span>
+            <span class="chip">Flask</span><span class="chip">Tailwind (optional)</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h4>Tools</h4>
+          <div class="chips">
+            <span class="chip">Git</span><span class="chip">Docker</span>
+            <span class="chip">Linux</span><span class="chip">Figma</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h4>CS</h4>
+          <div class="chips">
+            <span class="chip">DSA</span><span class="chip">OOP</span><span class="chip">OS</span><span
+              class="chip">DBMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container reveal">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div>
+            <h3>SRMU — B.Tech CSE</h3>
+            <p>2023 — 2027</p>
+            <p>Relevant courses: DSA, OS, DBMS, Discrete Mathematics, Networks, AI/ML</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <!-- <div class="timeline__dot"></div>
+          <div>
+            <h3>High School</h3>
+            <p>—</p>
+            <p>Add your board, year, and highlights</p>
+          </div>
+        </div> -->
+        </div>
+      </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section diagonal">
+    <div class="container reveal">
+      <h2>Achievements</h2>
+      <ul class="list-check">
+        <li>AWSome day conference participant, AI for All Govt Program </li>
+        <li>Top 5% in viveka's Hack-a-thon, codex and Bug Hunting like challenges</li>
+        <li>SIH Internal finalist — PROJECT - Aaharithm</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container grid-2 reveal">
+      <div>
+        <h2>Contact</h2>
+        <p>Prefer email? Use the form or open your email app directly. I reply fast.</p>
+        <div class="contact__quick">
+          <a class="btn btn--ghost" id="openMailApp" href="mailto:YOUR_EMAIL@example.com">Open Email App</a>
+        </div>
+        <div class="social social--row">
+          <a href="https://github.com/Unfazed-Akash" target="_blank" rel="noopener" class="social__pill">GitHub</a>
+          <a href="https://linkedin.com/in/unfazed-akash" target="_blank" rel="noopener"
+            class="social__pill">LinkedIn</a>
+          <a href="https://x.com/unfazed_akash" target="_blank" rel="noopener" class="social__pill">X</a>
+          <a href="https://www.reddit.com/user/unfazed-akash/" target="_blank" rel="noopener"
+            class="social__pill">Reddit</a>
+          <a href="https://discord.com/channels/@1429119620563865632" target="_blank" rel="noopener"
+            class="social__pill">Discord</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="card form" aria-label="Contact form">
+        <label>
+          <span>Name</span>
+          <input required type="text" name="name" placeholder="YOUR NAME" />
+        </label>
+        <label>
+          <span>Email</span>
+          <input required type="email" name="email" placeholder="you@example.com" />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea required name="message" rows="5" placeholder="What’s up?"></textarea>
+        </label>
+        <button class="btn btn--primary" type="submit">Send</button>
+        <p class="form__note">No server needed. This opens your email app and pre-fills the message. Optional EmailJS
+          supported in script.js.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="year"></span> AKASH TRIVEDI. Built with HTML • CSS • JS.</div>
+      <div class="footer__links">
+        <a href="#home">Top</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+</body>
+
+</html>
